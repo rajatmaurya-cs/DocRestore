@@ -1,0 +1,10 @@
+{
+    "model_architecture": "Pix2Pix U-Net Generator",
+    "image_resolution": [
+        256,
+        256
+    ],
+    "normalization": "mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5)",
+    "inference_requirements": "PyTorch, Pillow, NumPy",
+    "best_validation_l1": 0.007468747906386852
+}

@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyTorch checkpoints and model weights (exclude large binary weights from git)
+models/*.pth
+models/*.pt
+checkpoints/*.pth
+checkpoints/*.pt
+*.pth
+*.pt
+
+# Datasets & outputs
+data/
+outputs/*
+!outputs/.gitkeep
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+// streamlit run app.py

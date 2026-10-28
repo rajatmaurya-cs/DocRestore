@@ -1,0 +1,15 @@
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.5.0
+numpy>=1.24.0
+scikit-image>=0.21.0
+
+# User Interface
+streamlit>=1.25.0
+
+# Visualization & Metrics
+matplotlib>=3.7.0
+
+# Testing
+pytest>=7.4.0
